@@ -4,7 +4,6 @@ Pod::Spec.new do |s|
   s.summary      = "AudioQueue player for playing multiple music files or looping musics."
   s.description  = "AudioQueue player for playing multiple music files or looping musics. New updates: Removed unnecessary logs and codes."
   s.homepage     = "https://github.com/tonyzonghui/AudioPlayer"
-  s.libraries    = 'c++'
   s.license      = 'MIT'
   s.license      = {
      :type => 'MIT',
@@ -25,6 +24,7 @@ Pod::Spec.new do |s|
 
   s.source_files = '*.{h,m,mm}'
   s.framework = 'AudioToolbox'
+  s.libraries = 'c++'
   s.requires_arc = true
 
 end
