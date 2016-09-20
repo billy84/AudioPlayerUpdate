@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AudioPlayer"
-  s.version      = "0.0.3"
+  s.version      = "0.0.5"
   s.summary      = "AudioQueue player for playing multiple music files or looping musics."
   s.description  = "AudioQueue player for playing multiple music files or looping musics. New updates: Removed unnecessary logs and codes."
   s.homepage     = "https://github.com/tonyzonghui/AudioPlayer"
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
      LICENSE
   }
   s.author       = { "Zhang Zonghui" => "zhangzonghui01@gmail.com" }
-  s.source       = { :git => "https://github.com/tonyzonghui/AudioPlayer.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/billy84/AudioPlayerUpdate.git", :tag => "0.0.5" }
   s.platform     = :ios
 
   s.source_files = '*.{h,m,mm}'
